@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.MessageContracts", "StackCafe.MessageContracts\StackCafe.MessageContracts.csproj", "{C318769A-9797-4C06-9105-B76CFB78D128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.Barista", "StackCafe.Barista\StackCafe.Barista.csproj", "{94DBDCEB-FA39-42B1-83EE-7A575C96C981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.Waiter", "StackCafe.Waiter\StackCafe.Waiter.csproj", "{97894097-3746-4A18-AE4F-FA6F65593930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.Cashier", "StackCafe.Cashier\StackCafe.Cashier.csproj", "{DBBFCA6E-7F0F-439D-AA50-57D49ED6A7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.Common.Logging", "StackCafe.Common.Logging\StackCafe.Common.Logging.csproj", "{A6A6C9E2-EA69-4FC3-8369-CEDC8A96C204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.Common.MessageBus", "StackCafe.Common.MessageBus\StackCafe.Common.MessageBus.csproj", "{0DF202D2-752A-4647-9B4B-E8A0F8E33F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.Common.Configuration", "StackCafe.Common.Configuration\StackCafe.Common.Configuration.csproj", "{CA92EC12-B8E1-4DBF-8D36-C38CBB355FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.Common.AppDomainScanner", "StackCafe.Common.AppDomainScanner\StackCafe.Common.AppDomainScanner.csproj", "{ABB103B4-3B92-402E-AF80-2B3DF7B4FC52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9B75043-6597-417F-8B57-710283E1C647}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCafe.MakeLineMonitor", "StackCafe.MakeLineMonitor\StackCafe.MakeLineMonitor.csproj", "{B45935BF-64F0-4AEB-8C66-06EE3AFC6FE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C318769A-9797-4C06-9105-B76CFB78D128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C318769A-9797-4C06-9105-B76CFB78D128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C318769A-9797-4C06-9105-B76CFB78D128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C318769A-9797-4C06-9105-B76CFB78D128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DBDCEB-FA39-42B1-83EE-7A575C96C981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DBDCEB-FA39-42B1-83EE-7A575C96C981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DBDCEB-FA39-42B1-83EE-7A575C96C981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DBDCEB-FA39-42B1-83EE-7A575C96C981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97894097-3746-4A18-AE4F-FA6F65593930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97894097-3746-4A18-AE4F-FA6F65593930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97894097-3746-4A18-AE4F-FA6F65593930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97894097-3746-4A18-AE4F-FA6F65593930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBFCA6E-7F0F-439D-AA50-57D49ED6A7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBFCA6E-7F0F-439D-AA50-57D49ED6A7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBFCA6E-7F0F-439D-AA50-57D49ED6A7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBFCA6E-7F0F-439D-AA50-57D49ED6A7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A6C9E2-EA69-4FC3-8369-CEDC8A96C204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A6C9E2-EA69-4FC3-8369-CEDC8A96C204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A6C9E2-EA69-4FC3-8369-CEDC8A96C204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A6C9E2-EA69-4FC3-8369-CEDC8A96C204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF202D2-752A-4647-9B4B-E8A0F8E33F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF202D2-752A-4647-9B4B-E8A0F8E33F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF202D2-752A-4647-9B4B-E8A0F8E33F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF202D2-752A-4647-9B4B-E8A0F8E33F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA92EC12-B8E1-4DBF-8D36-C38CBB355FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA92EC12-B8E1-4DBF-8D36-C38CBB355FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA92EC12-B8E1-4DBF-8D36-C38CBB355FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA92EC12-B8E1-4DBF-8D36-C38CBB355FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB103B4-3B92-402E-AF80-2B3DF7B4FC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB103B4-3B92-402E-AF80-2B3DF7B4FC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB103B4-3B92-402E-AF80-2B3DF7B4FC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB103B4-3B92-402E-AF80-2B3DF7B4FC52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45935BF-64F0-4AEB-8C66-06EE3AFC6FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45935BF-64F0-4AEB-8C66-06EE3AFC6FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45935BF-64F0-4AEB-8C66-06EE3AFC6FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45935BF-64F0-4AEB-8C66-06EE3AFC6FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0AC8500-2471-4376-8AA8-DECE5A032855}
+	EndGlobalSection
+EndGlobal
